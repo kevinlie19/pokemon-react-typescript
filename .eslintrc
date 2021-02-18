@@ -10,10 +10,8 @@
     "sourceType": "module"
   },
   "env": { "es6": true, "browser": true },
-  "plugins": ["simple-import-sort"],
+  "plugins": ["@typescript-eslint"],
   "rules": {
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
     "sort-imports": "off",
     "import/first": "off",
     "import/newline-after-import": "off",
